@@ -12,5 +12,10 @@
 */
 
 Route::get('/', function () {
+
+    $test = "testname";
+
+    echo $test;
+
     return view('welcome');
 });
