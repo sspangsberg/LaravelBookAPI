@@ -31,6 +31,6 @@ class Book extends Model
      * @return void
      */
     public function ratings() {
-        $this->hasMany(Rating::class);
+        return $this->hasMany(Rating::class);
     }
 }
